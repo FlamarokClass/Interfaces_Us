@@ -30,6 +30,6 @@ function mostrarMateriasInscriptas(){
 }
 
 function formatCuatrimestre(cuatrimestre){
-    const arrText = cuatrimestre.split("/");
-    return `Cuatrimestre ${arrText[0]} del ${arrText[1]}`;
+    const arrText = cuatrimestre.split("/"); // retorna un array de la siguiente forma ej: ["1", "2023"]
+    return `Cuatrimestre ${arrText[0]} del ${arrText[1]}`; // salida un string de la forma "Cuatrimestre 1 del 2023"
 }
